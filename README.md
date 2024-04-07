@@ -4,6 +4,8 @@ This is a simple quiz application built using Node.js, Express.js, and EJS. It a
 
 ## Getting Started
 
+![Screenshot of Home Page](/screenshots/homepage.png)
+
 To run this application locally, follow these steps:
 
 ### Prerequisites
