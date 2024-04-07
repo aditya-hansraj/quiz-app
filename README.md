@@ -10,8 +10,8 @@ To run this application locally, follow these steps:
 
 ### Prerequisites
 
-- Node.js installed on your machine. You can download it from [here](https://nodejs.org/en/download).
-- git installed on your machine. You can download it from [here](https://git-scm.com/downloads).
+- Node.js installed on your machine. You can download it from <a href="https://nodejs.org/en/download" target="_blank">here</a>.
+- git installed on your machine. You can download it from <a href="https://git-scm.com/downloads" target="_blank">here</a>.
 
 ### Installation
 
