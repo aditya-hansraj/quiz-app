@@ -16,13 +16,13 @@ To run this application locally, follow these steps:
 ### Installation
 
 1. Clone this repository to your local machine using:
-
    ```bash
     git clone https://github.com/aditya-hansraj/quiz-app.git
-![git clone](/files/screenshots/git-clone.png)
+   
 2. Navigate to the project directory:
    ```bash
     cd quiz-app
+   
 3. Install dependencies using npm:
    ```bash
     npm install
