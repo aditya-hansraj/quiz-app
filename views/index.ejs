@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %> 
+    <title>Quiz Homepage</title>
+    <style>
+        footer {
+            position: absolute;
+        }
+    </style>
+    <link rel="icon" href="quiz-icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <h1>Welcome to the Node.js Quiz!</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="home-container">  
+            <section id="intro">
+                <h2>Test Your Node.js Knowledge</h2>
+                <p>Are you ready to put your Node.js skills to the test? <br> Take our interactive quiz and find out!</p>
+                <button id="startBtn">Start Quiz</button>
+            </section>
+        </div>
+    </main>
+    
+    <%- include('./partials/footer.ejs') %>
+
+    <script src="index.js"></script>
+</body>
+</html>

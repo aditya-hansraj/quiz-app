@@ -1,0 +1,1152 @@
+[
+    {
+        "question": "What is Node.js?",
+        "options": [
+            "A programming language",
+            "A web browser",
+            "A JavaScript runtime environment",
+            "An operating system"
+        ],
+        "answer": "A JavaScript runtime environment"
+    },
+    {
+        "question": "Which company initially developed Node.js?",
+        "options": [
+            "Google",
+            "Microsoft",
+            "Mozilla",
+            "Joyent"
+        ],
+        "answer": "Joyent"
+    },
+    {
+        "question": "Which engine does Node.js use to execute JavaScript code?",
+        "options": [
+            "Chrome V8",
+            "SpiderMonkey",
+            "Chakra",
+            "JavaScriptCore"
+        ],
+        "answer": "Chrome V8"
+    },
+    {
+        "question": "What is npm?",
+        "options": [
+            "Node Package Manager",
+            "Node Program Manager",
+            "Node Package Module",
+            "Node Plugin Manager"
+        ],
+        "answer": "Node Package Manager"
+    },
+    {
+        "question": "Which Node.js module is used for handling file operations?",
+        "options": [
+            "fs",
+            "http",
+            "path",
+            "os"
+        ],
+        "answer": "fs"
+    },
+    {
+        "question": "What does the 'path' module in Node.js provide?",
+        "options": [
+            "Utilities for working with file paths",
+            "Utilities for working with streams",
+            "Utilities for working with HTTP requests",
+            "Utilities for working with operating system tasks"
+        ],
+        "answer": "Utilities for working with file paths"
+    },
+    {
+        "question": "Which method is used to include modules in Node.js?",
+        "options": [
+            "import",
+            "require",
+            "use",
+            "include"
+        ],
+        "answer": "require"
+    },
+    {
+        "question": "What does the 'crypto' module in Node.js provide?",
+        "options": [
+            "Manipulate cryptographic keys",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Manipulate cryptographic keys"
+    },
+    {
+        "question": "Which event is emitted when an error occurs in Node.js streams?",
+        "options": [
+            "error",
+            "streamError",
+            "dataError",
+            "streamEnd"
+        ],
+        "answer": "error"
+    },
+    {
+        "question": "What is the purpose of the 'util' module in Node.js?",
+        "options": [
+            "To provide utility functions",
+            "To handle HTTP requests",
+            "To create child processes",
+            "To manipulate cryptographic keys"
+        ],
+        "answer": "To provide utility functions"
+    },
+    {
+        "question": "Which Node.js method is used to execute code after a specified number of milliseconds?",
+        "options": [
+            "setInterval()",
+            "setTimeout()",
+            "setImmediate()",
+            "setTime()"
+        ],
+        "answer": "setTimeout()"
+    },
+    {
+        "question": "What does the 'require' function return in Node.js?",
+        "options": [
+            "An array",
+            "A Promise",
+            "A module object",
+            "A function"
+        ],
+        "answer": "A module object"
+    },
+    {
+        "question": "What is the purpose of the 'events' module in Node.js?",
+        "options": [
+            "To handle events",
+            "To manipulate file paths",
+            "To handle HTTP requests",
+            "To create child processes"
+        ],
+        "answer": "To handle events"
+    },
+    {
+        "question": "Which method is used to emit an event in Node.js?",
+        "options": [
+            "emit()",
+            "trigger()",
+            "fire()",
+            "dispatch()"
+        ],
+        "answer": "emit()"
+    },
+    {
+        "question": "What does the 'os' module in Node.js provide?",
+        "options": [
+            "Utilities for working with file paths",
+            "Utilities for working with streams",
+            "Utilities for working with operating system related tasks",
+            "Utilities for working with HTTP requests"
+        ],
+        "answer": "Utilities for working with operating system related tasks"
+    },
+    {
+        "question": "What is the purpose of the 'cluster' module in Node.js?",
+        "options": [
+            "To create child processes",
+            "To manage clusters of worker processes",
+            "To handle networking tasks",
+            "To manage asynchronous operations"
+        ],
+        "answer": "To manage clusters of worker processes"
+    },
+    {
+        "question": "Which event is emitted when a HTTP server in Node.js receives a request?",
+        "options": [
+            "request",
+            "connect",
+            "disconnect",
+            "http"
+        ],
+        "answer": "request"
+    },
+    {
+        "question": "What does the 'buffer' module in Node.js provide?",
+        "options": [
+            "Manipulate binary data",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Manipulate binary data"
+    },
+    {
+        "question": "Which method is used to remove a listener for a specific event in Node.js?",
+        "options": [
+            "removeListener()",
+            "off()",
+            "remove()",
+            "deleteListener()"
+        ],
+        "answer": "removeListener()"
+    },
+    {
+        "question": "What is the purpose of the 'zlib' module in Node.js?",
+        "options": [
+            "Compress and decompress files",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Compress and decompress files"
+    },
+    {
+        "question": "What is the purpose of the 'http' module in Node.js?",
+        "options": [
+            "To handle HTTP requests",
+            "To manipulate file paths",
+            "To create child processes",
+            "To handle events"
+        ],
+        "answer": "To handle HTTP requests"
+    },
+    {
+        "question": "Which module in Node.js is used for handling network-related tasks?",
+        "options": [
+            "net",
+            "http",
+            "fs",
+            "os"
+        ],
+        "answer": "net"
+    },
+    {
+        "question": "What does the 'assert' module in Node.js provide?",
+        "options": [
+            "Assertion testing",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Assertion testing"
+    },
+    {
+        "question": "Which event is emitted when a child process in Node.js exits?",
+        "options": [
+            "exit",
+            "processExit",
+            "terminate",
+            "childExit"
+        ],
+        "answer": "exit"
+    },
+    {
+        "question": "What is the purpose of the 'readline' module in Node.js?",
+        "options": [
+            "Read input from the command line",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Read input from the command line"
+    },
+    {
+        "question": "Which method is used to append data to a file in Node.js?",
+        "options": [
+            "fs.write()",
+            "fs.append()",
+            "fs.appendFile()",
+            "fs.writeFile()"
+        ],
+        "answer": "fs.appendFile()"
+    },
+    {
+        "question": "What does the 'string_decoder' module in Node.js provide?",
+        "options": [
+            "Decode buffers into strings",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Decode buffers into strings"
+    },
+    {
+        "question": "What is the purpose of the 'domain' module in Node.js?",
+        "options": [
+            "Deprecated module",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Deprecated module"
+    },
+    {
+        "question": "Which module in Node.js is used for handling file system operations?",
+        "options": [
+            "fs",
+            "http",
+            "path",
+            "os"
+        ],
+        "answer": "fs"
+    },
+    {
+        "question": "What does the 'url' module in Node.js provide?",
+        "options": [
+            "Parse URL strings",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Parse URL strings"
+    },
+    {
+        "question": "Which method is used to read data from a file in Node.js?",
+        "options": [
+            "fs.read()",
+            "fs.readSync()",
+            "fs.readFile()",
+            "fs.readBuffer()"
+        ],
+        "answer": "fs.readFile()"
+    },
+    {
+        "question": "What is the purpose of the 'string_decoder' module in Node.js?",
+        "options": [
+            "Decode buffers into strings",
+            "Encode strings into buffers",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "Decode buffers into strings"
+    },
+    {
+        "question": "Which method is used to create a directory in Node.js?",
+        "options": [
+            "fs.mkdir()",
+            "fs.createDirectory()",
+            "fs.makeDirectory()",
+            "fs.newDirectory()"
+        ],
+        "answer": "fs.mkdir()"
+    },
+    {
+        "question": "What is the purpose of the 'dgram' module in Node.js?",
+        "options": [
+            "To create datagram sockets",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To create datagram sockets"
+    },
+    {
+        "question": "Which method is used to read the contents of a directory in Node.js?",
+        "options": [
+            "fs.readDir()",
+            "fs.readDirectory()",
+            "fs.readdir()",
+            "fs.directory()"
+        ],
+        "answer": "fs.readdir()"
+    },
+    {
+        "question": "What is the purpose of the 'tty' module in Node.js?",
+        "options": [
+            "To provide access to the TTY (teletypewriter) stream",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To provide access to the TTY (teletypewriter) stream"
+    },
+    {
+        "question": "Which module in Node.js is used for working with URLs?",
+        "options": [
+            "url",
+            "path",
+            "querystring",
+            "os"
+        ],
+        "answer": "url"
+    },
+    {
+        "question": "What is the purpose of the 'url' module in Node.js?",
+        "options": [
+            "To parse URL strings",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To parse URL strings"
+    },
+    {
+        "question": "Which method is used to parse query strings in Node.js?",
+        "options": [
+            "querystring.parse()",
+            "querystring.stringify()",
+            "querystring.parseQuery()",
+            "querystring.stringParse()"
+        ],
+        "answer": "querystring.parse()"
+    },
+    {
+        "question": "What is the purpose of the 'vm' module in Node.js?",
+        "options": [
+            "To compile and execute JavaScript code within V8 virtual machine contexts",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To compile and execute JavaScript code within V8 virtual machine contexts"
+    },
+    {
+        "question": "Which method is used to execute JavaScript code within a specific context in Node.js?",
+        "options": [
+            "vm.runInContext()",
+            "vm.execute()",
+            "vm.run()",
+            "vm.runInScope()"
+        ],
+        "answer": "vm.runInContext()"
+    },
+    {
+        "question": "What is the purpose of the 'child_process' module in Node.js?",
+        "options": [
+            "To create child processes",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create asynchronous operations"
+        ],
+        "answer": "To create child processes"
+    },
+    {
+        "question": "Which method is used to spawn a new process in Node.js?",
+        "options": [
+            "child_process.spawn()",
+            "child_process.fork()",
+            "child_process.exec()",
+            "child_process.execFile()"
+        ],
+        "answer": "child_process.spawn()"
+    },
+    {
+        "question": "What is the purpose of the 'util' module in Node.js?",
+        "options": [
+            "To provide utility functions",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To provide utility functions"
+    },
+    {
+        "question": "Which method is used to promisify callback-based functions in Node.js?",
+        "options": [
+            "util.promisify()",
+            "util.promisifyCallback()",
+            "util.promisifyFunction()",
+            "util.promisifyCallbackFunction()"
+        ],
+        "answer": "util.promisify()"
+    },
+    {
+        "question": "What is the purpose of the 'worker_threads' module in Node.js?",
+        "options": [
+            "To create worker threads",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To create worker threads"
+    },
+    {
+        "question": "Which method is used to create a new worker thread in Node.js?",
+        "options": [
+            "worker_threads.newWorker()",
+            "worker_threads.createThread()",
+            "worker_threads.spawn()",
+            "worker_threads.Worker()"
+        ],
+        "answer": "worker_threads.Worker()"
+    },
+    {
+        "question": "What is the purpose of the 'timers' module in Node.js?",
+        "options": [
+            "To execute code after a specified delay",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To execute code after a specified delay"
+    },
+    {
+        "question": "Which method is used to create a timer in Node.js?",
+        "options": [
+            "setTimeout()",
+            "setInterval()",
+            "setImmediate()",
+            "setTime()"
+        ],
+        "answer": "setTimeout()"
+    },
+    {
+        "question": "What is the purpose of the 'async_hooks' module in Node.js?",
+        "options": [
+            "To track asynchronous resources",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To track asynchronous resources"
+    },
+    {
+        "question": "Which method is used to create an asynchronous hook in Node.js?",
+        "options": [
+            "async_hooks.createHook()",
+            "async_hooks.newHook()",
+            "async_hooks.hook()",
+            "async_hooks.create()"
+        ],
+        "answer": "async_hooks.createHook()"
+    },
+    {
+        "question": "What is the purpose of the 'perf_hooks' module in Node.js?",
+        "options": [
+            "To monitor the performance of Node.js applications",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To monitor the performance of Node.js applications"
+    },
+    {
+        "question": "Which method is used to create a performance timer in Node.js?",
+        "options": [
+            "performance.now()",
+            "performance.timer()",
+            "performance.createTimer()",
+            "performance.startTimer()"
+        ],
+        "answer": "performance.now()"
+    },
+    {
+        "question": "What is the purpose of the 'dns' module in Node.js?",
+        "options": [
+            "To perform DNS lookups",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To perform DNS lookups"
+    },
+    {
+        "question": "Which method is used to perform a DNS lookup in Node.js?",
+        "options": [
+            "dns.resolve()",
+            "dns.lookup()",
+            "dns.query()",
+            "dns.get()"
+        ],
+        "answer": "dns.lookup()"
+    },
+    {
+        "question": "What is the purpose of the 'http2' module in Node.js?",
+        "options": [
+            "To create HTTP/2 servers and clients",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To create HTTP/2 servers and clients"
+    },
+    {
+        "question": "Which method is used to create an HTTP/2 server in Node.js?",
+        "options": [
+            "http2.createServer()",
+            "http2.createServer2()",
+            "http2.newServer()",
+            "http2.server()"
+        ],
+        "answer": "http2.createServer()"
+    },
+    {
+        "question": "What is the purpose of the 'https' module in Node.js?",
+        "options": [
+            "To create HTTPS servers and clients",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To create HTTPS servers and clients"
+    },
+    {
+        "question": "Which method is used to create an HTTPS server in Node.js?",
+        "options": [
+            "https.createServer()",
+            "https.createServer2()",
+            "https.newServer()",
+            "https.server()"
+        ],
+        "answer": "https.createServer()"
+    },
+    {
+        "question": "What is the purpose of the 'stream' module in Node.js?",
+        "options": [
+            "To work with streaming data",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To work with streaming data"
+    },
+    {
+        "question": "Which method is used to create a readable stream in Node.js?",
+        "options": [
+            "stream.createReadableStream()",
+            "stream.newReadableStream()",
+            "stream.readableStream()",
+            "stream.Readable()"
+        ],
+        "answer": "stream.Readable()"
+    },
+    {
+        "question": "What is the purpose of the 'string_decoder' module in Node.js?",
+        "options": [
+            "To decode buffers into strings",
+            "To encode strings into buffers",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To decode buffers into strings"
+    },
+    {
+        "question": "Which method is used to decode a buffer into a string in Node.js?",
+        "options": [
+            "string_decoder.decode()",
+            "string_decoder.convert()",
+            "string_decoder.fromString()",
+            "string_decoder.bufferToString()"
+        ],
+        "answer": "string_decoder.decode()"
+    },
+    {
+        "question": "What is the purpose of the 'v8' module in Node.js?",
+        "options": [
+            "To provide access to V8 engine statistics",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To provide access to V8 engine statistics"
+    },
+    {
+        "question": "Which method is used to access V8 engine statistics in Node.js?",
+        "options": [
+            "v8.getStatistics()",
+            "v8.stats()",
+            "v8.statistics()",
+            "v8.getStats()"
+        ],
+        "answer": "v8.getStatistics()"
+    },
+    {
+        "question": "What is the purpose of the 'vm' module in Node.js?",
+        "options": [
+            "To compile and execute JavaScript code within V8 virtual machine contexts",
+            "Manipulate file paths",
+            "Handle HTTP requests",
+            "Create child processes"
+        ],
+        "answer": "To compile and execute JavaScript code within V8 virtual machine contexts"
+    },
+    {
+        "question": "Which method is used to compile and execute JavaScript code within a V8 virtual machine context in Node.js?",
+        "options": [
+            "vm.runInContext()",
+            "vm.execute()",
+            "vm.run()",
+            "vm.runInScope()"
+        ],
+        "answer": "vm.runInContext()"
+    },
+    {
+        "question": "What is the purpose of the 'cluster' module in Node.js?",
+        "options": [
+            "To manage clusters of worker processes",
+            "To create child processes",
+            "To handle networking tasks",
+            "To manage asynchronous operations"
+        ],
+        "answer": "To manage clusters of worker processes"
+    },
+    {
+        "question": "Which method is used to fork a new process in the 'cluster' module in Node.js?",
+        "options": [
+            "cluster.fork()",
+            "cluster.create()",
+            "cluster.spawn()",
+            "cluster.newProcess()"
+        ],
+        "answer": "cluster.fork()"
+    },
+    {
+        "question": "What is the purpose of the 'async_hooks' module in Node.js?",
+        "options": [
+            "To track asynchronous resources",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To track asynchronous resources"
+    },
+    {
+        "question": "Which method is used to create an asynchronous hook in Node.js?",
+        "options": [
+            "async_hooks.createHook()",
+            "async_hooks.newHook()",
+            "async_hooks.hook()",
+            "async_hooks.create()"
+        ],
+        "answer": "async_hooks.createHook()"
+    },
+    {
+        "question": "What is the purpose of the 'perf_hooks' module in Node.js?",
+        "options": [
+            "To monitor the performance of Node.js applications",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To monitor the performance of Node.js applications"
+    },
+    {
+        "question": "Which method is used to create a performance timer in Node.js?",
+        "options": [
+            "performance.now()",
+            "performance.timer()",
+            "performance.createTimer()",
+            "performance.startTimer()"
+        ],
+        "answer": "performance.now()"
+    },
+    {
+        "question": "What is the purpose of the 'dns' module in Node.js?",
+        "options": [
+            "To perform DNS lookups",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To perform DNS lookups"
+    },
+    {
+        "question": "Which method is used to perform a DNS lookup in Node.js?",
+        "options": [
+            "dns.resolve()",
+            "dns.lookup()",
+            "dns.query()",
+            "dns.get()"
+        ],
+        "answer": "dns.lookup()"
+    },
+    {
+        "question": "What is the purpose of the 'http2' module in Node.js?",
+        "options": [
+            "To create HTTP/2 servers and clients",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To create HTTP/2 servers and clients"
+    },
+    {
+        "question": "Which method is used to create an HTTP/2 server in Node.js?",
+        "options": [
+            "http2.createServer()",
+            "http2.createServer2()",
+            "http2.newServer()",
+            "http2.server()"
+        ],
+        "answer": "http2.createServer()"
+    },
+    {
+        "question": "What is the purpose of the 'https' module in Node.js?",
+        "options": [
+            "To create HTTPS servers and clients",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To create HTTPS servers and clients"
+    },
+    {
+        "question": "Which method is used to create an HTTPS server in Node.js?",
+        "options": [
+            "https.createServer()",
+            "https.createServer2()",
+            "https.newServer()",
+            "https.server()"
+        ],
+        "answer": "https.createServer()"
+    },
+    {
+        "question": "What is the purpose of the 'stream' module in Node.js?",
+        "options": [
+            "To work with streaming data",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To work with streaming data"
+    },
+    {
+        "question": "Which method is used to create a readable stream in Node.js?",
+        "options": [
+            "stream.createReadableStream()",
+            "stream.newReadableStream()",
+            "stream.readableStream()",
+            "stream.Readable()"
+        ],
+        "answer": "stream.Readable()"
+    },
+    {
+        "question": "What is the purpose of the 'string_decoder' module in Node.js?",
+        "options": [
+            "To decode buffers into strings",
+            "To encode strings into buffers",
+            "To handle HTTP requests",
+            "To create child processes"
+        ],
+        "answer": "To decode buffers into strings"
+    },
+    {
+        "question": "Which method is used to decode a buffer into a string in Node.js?",
+        "options": [
+            "string_decoder.decode()",
+            "string_decoder.convert()",
+            "string_decoder.fromString()",
+            "string_decoder.bufferToString()"
+        ],
+        "answer": "string_decoder.decode()"
+    },
+    {
+        "question": "What is the purpose of the 'v8' module in Node.js?",
+        "options": [
+            "To provide access to V8 engine statistics",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To provide access to V8 engine statistics"
+    },
+    {
+        "question": "Which method is used to access V8 engine statistics in Node.js?",
+        "options": [
+            "v8.getStatistics()",
+            "v8.stats()",
+            "v8.statistics()",
+            "v8.getStats()"
+        ],
+        "answer": "v8.getStatistics()"
+    },
+    {
+        "question": "What is the purpose of the 'vm' module in Node.js?",
+        "options": [
+            "To compile and execute JavaScript code within V8 virtual machine contexts",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To compile and execute JavaScript code within V8 virtual machine contexts"
+    },
+    {
+        "question": "Which method is used to compile and execute JavaScript code within a V8 virtual machine context in Node.js?",
+        "options": [
+            "vm.runInContext()",
+            "vm.execute()",
+            "vm.run()",
+            "vm.runInScope()"
+        ],
+        "answer": "vm.runInContext()"
+    },
+    {
+        "question": "What is the purpose of the 'cluster' module in Node.js?",
+        "options": [
+            "To manage clusters of worker processes",
+            "To create child processes",
+            "To handle networking tasks",
+            "To manage asynchronous operations"
+        ],
+        "answer": "To manage clusters of worker processes"
+    },
+    {
+        "question": "Which method is used to fork a new process in the 'cluster' module in Node.js?",
+        "options": [
+            "cluster.fork()",
+            "cluster.create()",
+            "cluster.spawn()",
+            "cluster.newProcess()"
+        ],
+        "answer": "cluster.fork()"
+    },
+    {
+        "question": "What is the purpose of the 'async_hooks' module in Node.js?",
+        "options": [
+            "To track asynchronous resources",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To track asynchronous resources"
+    },
+    {
+        "question": "Which method is used to create an asynchronous hook in Node.js?",
+        "options": [
+            "async_hooks.createHook()",
+            "async_hooks.newHook()",
+            "async_hooks.hook()",
+            "async_hooks.create()"
+        ],
+        "answer": "async_hooks.createHook()"
+    },
+    {
+        "question": "What is the purpose of the 'perf_hooks' module in Node.js?",
+        "options": [
+            "To monitor the performance of Node.js applications",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To monitor the performance of Node.js applications"
+    },
+    {
+        "question": "Which method is used to create a performance timer in Node.js?",
+        "options": [
+            "performance.now()",
+            "performance.timer()",
+            "performance.createTimer()",
+            "performance.startTimer()"
+        ],
+        "answer": "performance.now()"
+    },
+    {
+        "question": "What is the purpose of the 'dns' module in Node.js?",
+        "options": [
+            "To perform DNS lookups",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To perform DNS lookups"
+    },
+    {
+        "question": "Which method is used to perform a DNS lookup in Node.js?",
+        "options": [
+            "dns.resolve()",
+            "dns.lookup()",
+            "dns.query()",
+            "dns.get()"
+        ],
+        "answer": "dns.lookup()"
+    },
+    {
+        "question": "What is the purpose of the 'http2' module in Node.js?",
+        "options": [
+            "To create HTTP/2 servers and clients",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To create HTTP/2 servers and clients"
+    },
+    {
+        "question": "Which method is used to create an HTTP/2 server in Node.js?",
+        "options": [
+            "http2.createServer()",
+            "http2.createServer2()",
+            "http2.newServer()",
+            "http2.server()"
+        ],
+        "answer": "http2.createServer()"
+    },
+    {
+        "question": "What is the purpose of the 'https' module in Node.js?",
+        "options": [
+            "To create HTTPS servers and clients",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To create HTTPS servers and clients"
+    },
+    {
+        "question": "Which method is used to create an HTTPS server in Node.js?",
+        "options": [
+            "https.createServer()",
+            "https.createServer2()",
+            "https.newServer()",
+            "https.server()"
+        ],
+        "answer": "https.createServer()"
+    },
+    {
+        "question": "What is the purpose of the 'stream' module in Node.js?",
+        "options": [
+            "To work with streaming data",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To work with streaming data"
+    },
+    {
+        "question": "Which method is used to create a readable stream in Node.js?",
+        "options": [
+            "stream.createReadableStream()",
+            "stream.newReadableStream()",
+            "stream.readableStream()",
+            "stream.Readable()"
+        ],
+        "answer": "stream.Readable()"
+    },
+    {
+        "question": "What is the purpose of the 'string_decoder' module in Node.js?",
+        "options": [
+            "To decode buffers into strings",
+            "To encode strings into buffers",
+            "To handle HTTP requests",
+            "To create child processes"
+        ],
+        "answer": "To decode buffers into strings"
+    },
+    {
+        "question": "Which method is used to decode a buffer into a string in Node.js?",
+        "options": [
+            "string_decoder.decode()",
+            "string_decoder.convert()",
+            "string_decoder.fromString()",
+            "string_decoder.bufferToString()"
+        ],
+        "answer": "string_decoder.decode()"
+    },
+    {
+        "question": "What is the purpose of the 'v8' module in Node.js?",
+        "options": [
+            "To provide access to V8 engine statistics",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate file paths"
+        ],
+        "answer": "To provide access to V8 engine statistics"
+    },
+    {
+        "question": "Which method is used to access V8 engine statistics in Node.js?",
+        "options": [
+            "v8.getStatistics()",
+            "v8.stats()",
+            "v8.statistics()",
+            "v8.getStats()"
+        ],
+        "answer": "v8.getStatistics()"
+    },
+    {
+        "question": "What is the purpose of the 'fs' module in Node.js?",
+        "options": [
+            "To work with file system operations",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate data structures"
+        ],
+        "answer": "To work with file system operations"
+    },
+    {
+        "question": "Which method is used to read a file asynchronously in Node.js?",
+        "options": [
+            "fs.readFile()",
+            "fs.read()",
+            "fs.open()",
+            "fs.write()"
+        ],
+        "answer": "fs.readFile()"
+    },
+    {
+        "question": "What is the purpose of the 'path' module in Node.js?",
+        "options": [
+            "To work with file and directory paths",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate data structures"
+        ],
+        "answer": "To work with file and directory paths"
+    },
+    {
+        "question": "Which method is used to join path segments in Node.js?",
+        "options": [
+            "path.join()",
+            "path.combine()",
+            "path.concat()",
+            "path.merge()"
+        ],
+        "answer": "path.join()"
+    },
+    {
+        "question": "What is the purpose of the 'os' module in Node.js?",
+        "options": [
+            "To provide operating system-related utility functions",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate data structures"
+        ],
+        "answer": "To provide operating system-related utility functions"
+    },
+    {
+        "question": "Which method is used to get the CPU architecture in Node.js?",
+        "options": [
+            "os.arch()",
+            "os.cpu()",
+            "os.cpuArch()",
+            "os.getArch()"
+        ],
+        "answer": "os.arch()"
+    },
+    {
+        "question": "What is the purpose of the 'crypto' module in Node.js?",
+        "options": [
+            "To provide cryptographic functionality",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate data structures"
+        ],
+        "answer": "To provide cryptographic functionality"
+    },
+    {
+        "question": "Which method is used to create a hash in Node.js?",
+        "options": [
+            "crypto.createHash()",
+            "crypto.hash()",
+            "crypto.digest()",
+            "crypto.encrypt()"
+        ],
+        "answer": "crypto.createHash()"
+    },
+    {
+        "question": "What is the purpose of the 'events' module in Node.js?",
+        "options": [
+            "To work with event-driven architecture",
+            "To create child processes",
+            "To handle HTTP requests",
+            "To manipulate data structures"
+        ],
+        "answer": "To work with event-driven architecture"
+    },
+    {
+        "question": "Which class is used to create custom event emitters in Node.js?",
+        "options": [
+            "events.EventEmitter",
+            "events.Emitter",
+            "events.CustomEmitter",
+            "events.EventHandler"
+        ],
+        "answer": "events.EventEmitter"
+    }
+]

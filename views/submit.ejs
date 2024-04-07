@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/head.ejs') %>
+        <title>Quiz Results</title>
+</head>
+
+<body>
+    <h1 style="color: #e8e8e8;">Node.js Quiz Results</h1>
+
+    <div class="results">
+        <div class="results-heading">
+            <h2 class="result-headings">You Scored 
+                <span
+                    class="<%= result.score >= result.questions.length * 0.6 ? 'green' : 'red' %>"> 
+                    <%= result.score %>
+                </span> / <%= result.questions.length %>
+            </h2>
+
+            <h3 class="result-headings">Quiz Analysis:</h3>
+        </div>
+
+        <% result.questions.forEach(questionResult=> { %>
+            <div class="question-result <%= !questionResult.correct ? 'wrongAnswer' : 'rightAnswer' %>">
+                <p class="question-text">
+                    <%= questionResult.question %><span class="mark"></span>
+                </p>
+
+                <% questionResult.options.forEach(option=> { %>
+                    <input type="radio" name="<%= questionResult.question %>" id="<%= option %>" disabled
+                        <%=questionResult.answer===option ? 'checked' : '' %> >
+
+                    <label for="<%= option %>"
+                        class="<%= option === questionResult.userAnswer && !questionResult.correct ? 'incorrect' : ''%>">
+                        <%= option %>
+                    </label>
+                    <% }) %>
+            </div>
+            <% }) %>
+    </div>
+    <a class="back-link" href="/">Home</a>
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+</html>

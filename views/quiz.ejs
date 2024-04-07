@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>  
+    <title>Node.js Quiz</title>
+</head>
+<body>
+    <h1 style="color: #fff;font-size: 55px;margin: 50px;">
+        Test your Node.js Knowledge
+    </h1>
+    <form action="/submit" method="post" class="quiz-form">
+        <div class="instructions">
+            <h2>Instructions regarding the Quiz: </h2>
+            <ol>
+                <li>There are a total of 10 multiple choice questions in the quiz.</li>
+                <li>Each question carries 1 mark, making the Quiz a total of 10 marks.</li>
+                <li>All 10 Questions are mandetory.</li>
+            </ol>
+        </div>
+        <% for(let i = 0; i < questions.length; i++) { %>
+            <div class="question">
+                <p class="qstn-stmt"><span>Q<%= i + 1 %>. </span><%= questions[i].question %></p>
+
+                
+                <input type="radio" value="<%= questions[i].options[0] %>" name="<%= i %>" id="opt1-<%= i %>" required>
+                <label for="opt1-<%= i %>"><%= questions[i].options[0] %></label>
+                
+                <input type="radio" value="<%= questions[i].options[1] %>" name="<%= i %>" id="opt2-<%= i %>" required>
+                <label for="opt2-<%= i %>"><%= questions[i].options[1] %></label>
+
+                <input type="radio" value="<%= questions[i].options[2] %>" name="<%= i %>" id="opt3-<%= i %>" required>
+                <label for="opt3-<%= i %>"><%= questions[i].options[2] %></label>
+
+                <input type="radio" value="<%= questions[i].options[3] %>" name="<%= i %>" id="opt4-<%= i %>" required>                
+                <label for="opt4-<%= i %>"><%= questions[i].options[3] %></label>
+
+            </div>
+        <% } %>
+        <button type="submit">Submit</button>
+    </form>
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
