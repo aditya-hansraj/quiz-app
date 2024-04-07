@@ -40,4 +40,4 @@ To run this application locally, follow these steps:
 
 ### Customization
 
-You can customize the quiz questions by editing the questions.json file located in the data directory.
+   You can customize the quiz questions by editing the questions.json file located in the data directory.
